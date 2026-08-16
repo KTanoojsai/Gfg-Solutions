@@ -1,0 +1,12 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/smith-number4132/1?page=10">Smith Number</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given a number n, find out whether this number is a Smith number or not. A Smith number is a composite number whose sum of digits is equal to the sum of digits of its prime factorization.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong><span style="font-size: 18px;">Input:</span> </strong></span><span style="font-size: 18px;">n = 648</span>
+<span style="font-size: 18px;"><strong><span style="font-size: 18px;">Output:</span> </strong></span><span style="font-size: 18px;">true</span>
+<span style="font-size: 18px;"><strong><span style="font-size: 18px;">Explanation:</span> </strong></span><span style="font-size: 18px;">648 = 2<sup>3</sup>*3<sup>4</sup>, 6+4+8 = 2+2+2+3+3+3+3. And 648 is composite.</span></pre>
+<pre><span style="font-size: 18px;"><strong><span style="font-size: 18px;">Input:</span> </strong></span><span style="font-size: 18px;">n = 762</span>
+<span style="font-size: 18px;"><strong><span style="font-size: 18px;">Output:</span> </strong></span><span style="font-size: 18px;">true</span>
+<span style="font-size: 18px;"><strong><span style="font-size: 18px;">Explanation:</span> </strong></span><span style="font-size: 18px;">762 = 2<sup>1</sup>*3<sup>1</sup>*127<sup>1</sup> is a Smith number because 7+6+2 = 2+3+(1+2+7) is composite.</span></pre>
+<pre><span style="font-size: 18px;"><strong><span style="font-size: 18px;">Input:</span> </strong></span><span style="font-size: 18px;">n = 7</span>
+<span style="font-size: 18px;"><strong><span style="font-size: 18px;">Output: </span></strong></span><span style="font-size: 18px;">false</span>
+<span style="font-size: 18px;"><strong><span style="font-size: 18px;">Explanation:</span> </strong></span><span style="font-size: 18px;">7 is not a Smith number because 7 is not a composite.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong></span><br><span style="font-size: 18px;">1 &lt;= n &lt;= 10<sup>9</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Mathematical</code>&nbsp;<code>series</code>&nbsp;<code>sieve</code>&nbsp;
