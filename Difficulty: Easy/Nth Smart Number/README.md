@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/nth-smart-number5909/1?page=10">Nth Smart Number</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given a positive integer <strong>n</strong>, return the nth Smart Number. </span><span style="font-size: 18px;">A Smart Number is a positive integer that has at least three distinct prime factors. A prime factor is counted only once, even if it appears multiple times in the prime factorization.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples: </strong></span></p>
+<pre><span style="font-size: 18px;"><strong style="font-size: 18px;">Input:</strong> </span><span style="font-size: 18px;">n<strong> = </strong>1</span>
+<span style="font-size: 18px;"><strong><span style="font-size: 18px;">Output:</span> </strong></span><span style="font-size: 18px;">30</span>
+<span style="font-size: 18px;"><strong><span style="font-size: 18px;">Explanation:</span> </strong></span><span style="font-size: 18px;">30 = 2 × 3 × 5, which has three distinct prime factors (2, 3, and 5). Hence, 30 is the first Smart Number.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>n = 4<strong>
+Output: </strong>66<strong>
+Explanation: </strong>The first four Smart Numbers are 30, 42, 60, 66. Therefore, the 4th Smart Number is 66.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong></span><br><span style="font-size: 18px;">1 ≤ n ≤ 10<sup>5</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Mathematical</code>&nbsp;
