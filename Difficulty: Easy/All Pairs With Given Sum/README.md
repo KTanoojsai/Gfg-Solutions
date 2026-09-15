@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/find-all-pairs-with-given-sum/1">All Pairs With Given Sum</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given a 0-indexed array <strong>arr[]</strong> and an integer <strong>target</strong>, find all pairs of indices (i, j) such that </span><span style="font-size: 18px;">arr[i] + arr[j] = target and i &lt; j.</span></p>
+<p><span style="font-size: 18px;">Return all such index pairs sorted in lexicographical order.</span></p>
+<p><strong style="font-size: 18px;">Examples:</strong></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong></span><span style="font-size: 18px;">arr[] = [10, 20, 30, 20, 10, 30], target = 50 </span><span style="font-size: 18px;">
+<strong>Output: </strong>[[1, 2], [1, 5], [2, 3], [3, 5]]<strong>
+Explanation: </strong></span><span style="font-size: 18px;">All pairs with sum = 50 are: </span><span style="font-size: 18px;">arr[1] + arr[2] = 20 + 30 = 50, </span><span style="font-size: 18px;">arr[1] + arr[5] = 20 + 30 = 50, </span><span style="font-size: 18px;">arr[2] + arr[3] = 30 + 20 = 50, </span><span style="font-size: 18px;">arr[3] + arr[5] = 20 + 30 = 50.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong></span><span style="font-size: 18px;">arr[] = [10, 20, 30, 20, 10, 30], target = 80 </span><span style="font-size: 18px;">
+<strong>Output: </strong>[]<strong>
+Explanation: </strong></span><span style="font-size: 18px;">No pairs with sum = 80.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:<br></strong>1 ≤ n ≤ 10<sup>3</sup><strong><br></strong></span><span style="font-size: 18px;">0 ≤ arr[i] ≤ </span><span style="font-size: 18px;">&nbsp;10<sup>4<br></sup></span><span style="font-size: 18px;">1 ≤ target ≤ 10</span><sup>4</sup></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Hash</code>&nbsp;
