@@ -1,35 +1,37 @@
 class Solution {
-    static ArrayList<Integer> intersection(int arr1[], int arr2[]) {
-        // code herea
-        ArrayList<Integer> al=new ArrayList<>();
+    ArrayList<Integer> intersection(int[] a, int[] b) {
+        // code here
+        Arrays.sort(a);
+        Arrays.sort(a);
         int l=0,r=0;
-        while(l<arr1.length && r<arr2.length)
+        ArrayList<Integer> al=new ArrayList<>();
+        while(l<a.length && r<b.length)
         {
-            if(l>0 && arr1[l]==arr1[l-1])
+            if(l>0 && a[l]==a[l-1])
             {
                 l++;
                 continue;
             }
-            if(r>0 && arr2[r]==arr2[r-1])
+            if(r>0 && b[r]==b[r-1])
             {
                 r++;
                 continue;
             }
-            if(arr1[l] == arr2[r])
+            if(a[l]==b[r])
             {
-                al.add(arr1[l]);
+                al.add(a[l]);
                 l++;
                 r++;
             }
-            else if(arr1[l]<arr2[r])
-            {
-                l++;
-            }
-            else
-            {
-                r++;
-            }
-        }
-        return al;
-    }
+                    else if(a[l]<b[r])
+                    {
+                        l++;
+                    }
+                    else
+                    {
+                        r++;
+                    }
+                }
+                return al;
+                }
 }
