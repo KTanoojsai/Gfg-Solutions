@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/handshakes1303/1">Non-Crossing Handshakes in Circle</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">There are <strong>n</strong> people sitting around a circular table. Any two people can shake hands with each other. Find the number of ways to perform handshakes such that no two handshakes intersect or cross each other when the handshakes are represented as straight lines between the corresponding people.<br><br>A handshake is considered crossing if the line segments representing two handshakes intersect at a point other than a common endpoint.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>n = 4
+<strong>Output: </strong>2
+<strong>Explanation: </strong>The two possible non-crossing handshake arrangements are: {{1, 2}, {3, 4}} and {{1, 4}, {2, 3}}.</span><br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/933103/Web/Other/blobid1_1787219048.png" width="488" height="170">
+</pre>
+<pre><span style="font-size: 18px;"><strong>I</strong></span><span style="font-size: 18px;"><strong>nput: </strong>n = 2
+<strong>Output: </strong>1
+<strong>Explanation: </strong>The only possible handshake is {1, 2}.</span></pre></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Amazon</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Recursion</code>&nbsp;
