@@ -1,0 +1,21 @@
+class Solution {
+    public int cntSubarrays(int[] arr, int k) {
+        java.util.Map<Integer, Integer> prefixSumCount = new java.util.HashMap<>();
+        prefixSumCount.put(0, 1);
+
+        int currentSum = 0;
+        int count = 0;
+
+        for (int num : arr) {
+            currentSum += num;
+
+            if (prefixSumCount.containsKey(currentSum - k)) {
+                count += prefixSumCount.get(currentSum - k);
+            }
+
+            prefixSumCount.put(currentSum, prefixSumCount.getOrDefault(currentSum, 0) + 1);
+        }
+
+        return count;
+    }
+}
